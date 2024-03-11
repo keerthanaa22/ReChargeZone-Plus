@@ -1,0 +1,89 @@
+/* NavigationBar.css */
+
+.main-navigation {
+  margin-top: -50px;
+  background-color: #f5f5f5;
+  /* background: linear-gradient(to left, #ad9c4f41, #fdfdfd); */
+  padding: 10px;
+}
+
+.nav-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  font-size: large;
+}
+
+.nav-item {
+  margin-right: 50px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: rgb(15, 2, 2);
+  padding: 5px 10px;
+  border-radius: 3px;
+  transition: background-color 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: #fdfdfd;
+}
+/* Add these styles to index.css */
+
+/* .user-profile {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.user-profile img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 10px;
+} */
+
+.dropbtn {
+  color: rgb(33, 29, 29);
+  padding-left: -200px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-left: 712px;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: rgb(169, 155, 155);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #e2f0f6;
+}

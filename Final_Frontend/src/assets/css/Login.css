@@ -1,0 +1,98 @@
+.l {
+  background-image: url("https://img.freepik.com/premium-vector/people-receiving-cashback-from-smartphone_268404-8.jpg?w=996");
+  background-size: contain;
+  background-position: left;
+  background-repeat: no-repeat;
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  animation: slideIn 1s ease-in-out;
+  overflow: hidden;
+  margin-left: -200px;
+  margin-top: -10px;
+}
+
+.container {
+  border: 2px;
+  border-color: black;
+  background-repeat: no-repeat;
+  margin-left: 950px;
+  margin-top: -100px;
+  height: 70%;
+  width: 50%;
+  animation: slideIn 1s ease-in-out;
+}
+.App {
+  background-repeat: no-repeat;
+  margin-top: 10px;
+}
+.l {
+  display: flex;
+}
+.lo {
+  /* margin-left: 450px; */
+  color: #4b6777;
+}
+
+.mn {
+  border: 2px solid#acb7ae;
+  height: 35px;
+  width: 20px;
+  background-color: white;
+}
+.ps {
+  border: 3px solid #acb7ae;
+  height: 35px;
+  width: 30%;
+  background-color: white;
+}
+.fib {
+  margin-top: -23px;
+  margin-left: 100px;
+  text-align: center;
+  color: #393939;
+}
+/* .lo {
+  padding-left: 70px;
+} */
+.bt {
+  height: 30px;
+  width: 70px;
+  color: #acb7ae;
+}
+.dt {
+  color: #4b6777;
+}
+
+#usrnm,
+#email,
+#password,
+#mobilenumber {
+  border: 2px solid #acb7ae;
+  height: 35px;
+  width: 45%;
+  background-color: white;
+}
+
+#lower {
+  color: #ec7f37;
+}
+.reg {
+  color: #acb7ae;
+  margin-left: 20px;
+}
+
+.adm {
+  color: #acb7ae;
+  margin-left: -20px;
+}
+.eee {
+  width: 500px;
+}
+.ppp {
+  width: 500px;
+}
+.logs {
+  color: black;
+  background-color: #02c525;
+}
